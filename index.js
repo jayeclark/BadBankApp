@@ -3,6 +3,8 @@ var app = express();
 var cors = require('cors');
 var dal = require('./dal.js');
 
+// This is a change
+
 app.use(express.static('public'));
 app.use(cors());
 
